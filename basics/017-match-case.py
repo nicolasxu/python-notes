@@ -18,7 +18,7 @@ class Solution:
                     b = int(res[len(res) -2])
                     res.append(a + b)
                 case _:
-
+                    # default case
                     res.append(int(op))
                     print(res)
         return sum(res)

@@ -1,4 +1,4 @@
-args and kwargs
+# args and kwargs
 
 
 def my_func(*args, **kwargs):

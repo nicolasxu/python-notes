@@ -13,6 +13,17 @@ def is_palindrome(str=""):
 
     return True
 
+def is_palindrome2(str=""):
+    size = len(str)
+    if size <=1:
+        return True
 
-res = is_palindrome(input_str + "1")
+    for i in range(size//2):
+        if (str[i] != str[size -i -1]):
+            return False
+
+    return True
+
+
+res = is_palindrome2(input_str )
 print("is_palindrome:", res)
